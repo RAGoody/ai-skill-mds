@@ -1,3 +1,24 @@
+---
+name: python-powershell-scaffolder
+description: Generates a copy-pasteable, single-line Windows PowerShell command to scaffold a Python project, subdirectories, virtualenv, .gitignore, and requirements.txt without interactive paste errors.
+---
+
+# Python PowerShell Scaffolder (Single-Line CLI)
+
+Generates a copy-pasteable single-line PowerShell command string to initialize a complete Python project layout directly in Windows PowerShell or Windows Terminal without interactive line continuation hangs (`>>`).
+
+## Input Variables
+
+Prompt or inspect for:
+
+- **`project_name`**: Root directory name (e.g., `my_app`).
+- **`package_names`**: Comma-separated or list of target dependencies (e.g., `numpy, pytest, readchar, pandas`).
+- **`subdirectories`**: Folder paths to create (e.g., `utility, data\input, data\output, config`).
+- **`venv`** *(optional, default: true)*: Whether to create and activate `.venv`.
+
+## Structured Prompt Template
+
+```text
 As a software engineer, generate a single-line series of powershell commands that creates a Python program scaffolding that can be cut and paste into a Powershell CLI with these specific outcomes:
 > creates a directory of the $project_name
 > requirements.txt with $packages included where $packages is a comma delimited list.
