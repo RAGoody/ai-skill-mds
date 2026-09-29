@@ -1,0 +1,9 @@
+Using the uploaded file, review the text notes and images, generating a comprehensive, organized output of the topics covered. Make sure to include:
+> table of contents
+> each chapter is a specific topic, sequentially numbered
+> extraction of embedded text in images included with the original source images
+> show me in your output how you have organized the contents and the table of contents
+> output into a .pdf file of $topic name.
+
+Variables:
+$topic=AIForDigitalTransformation
