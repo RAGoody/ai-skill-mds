@@ -14,6 +14,7 @@ description: generates a PDF of the given document, extracting content from capt
 Prompt or inspect for:
 
 - **`topic`**: Root directory name (e.g., `ai-skills-building`).
+- uploaded file in .docx, .pdf, etc format with content to organize.
 
 ## Structured Prompt Template
 

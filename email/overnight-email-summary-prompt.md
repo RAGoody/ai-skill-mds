@@ -1,3 +1,8 @@
+---
+name: overnight-email-summary-prompt
+description: generates an organized review, highlighting high, medium, low, ignored priority messages from overnight email list.
+---
+
 # Overnight Email Briefing Prompt Template
 
 Use this prompt to instruct an LLM (e.g., via automated morning workflows, Make, Zapier, Python scripts, or direct chat) to digest incoming overnight emails and produce an actionable executive briefing.
