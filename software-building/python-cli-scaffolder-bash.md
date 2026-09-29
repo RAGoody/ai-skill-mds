@@ -3,10 +3,6 @@ name: python-cli-scaffolder-bash
 description: Generates a copy-pasteable bash script to scaffold a Python project directory, subdirectories, virtualenv, .gitignore, and requirements.txt based on customizable parameters.
 ---
 
-# Python CLI Scaffolder
-
-Generates a single copy-pasteable bash command sequence to initialize a complete Python project layout directly in your shell.
-
 ## When to Use
 
 - Setting up or initializing a new Python project via CLI.
