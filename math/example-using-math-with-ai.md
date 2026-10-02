@@ -6,7 +6,7 @@ description: Illustrate how you use code to do math with your AI.
 ## When to Use
 
 -- AI is bad at math. But most AIs now have the ability to process code within a prmopt or even as uploaded files with the prompt.
--- This prompt will generate the prime numbers between [start] and [end].
+-- This eaxmple uses a simple Python function to calculate prime numbers between [start] and [end].
 -- Obviously this is an extremely expensive way to run this. Using a spreadsheet formula would be less CPU/Energy intense, but this is meant to be an example of how you do math within a prompt and response.
 
 ## Input Variables
@@ -20,11 +20,9 @@ description: Illustrate how you use code to do math with your AI.
 Using the included python function "findPrimes(start,End)" tell me the prime numbers where [start]=70 and [end]=200.
 
 "
-
 def findPrimes(start,end):
-    """
-    Returns a list of prime numbers between start and end (inclusive).
-    """
+    #Returns a list of prime numbers between start and end (inclusive).
+
     primes = []
 
     for num in range(start, end + 1):
