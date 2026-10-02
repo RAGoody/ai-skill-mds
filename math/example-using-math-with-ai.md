@@ -22,34 +22,20 @@ Using the included python function "findPrimes(start,End)" tell me the prime num
 "
 
 def findPrimes(start,end):
-
     """
-
     Returns a list of prime numbers between start and end (inclusive).
-
     """
-
     primes = []
 
-
     for num in range(start, end + 1):
-
         if num > 1:
-
             # Check for factors up to the square root of the number
-
             for i in range(2, int(num ** 0.5) + 1):
-
                 if num % i == 0:
-
                     break  # Not a prime, exit the inner loop
-
             else:
-
                 # The else block runs only if the loop didn't break
-
                 primes.append(num)
-
 
     return primes
 " 
